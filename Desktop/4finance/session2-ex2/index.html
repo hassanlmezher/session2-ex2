@@ -71,9 +71,35 @@
         }
         .p13{
             font-size: 20px;
+            transition: all 0.8s ease;
         }
         .p14{
             font-size: 20px;
+            transition: all 0.8s ease;
+        }
+        .p15{
+            transition: all 0.8s ease;
+        }
+        .p13:hover{
+            background-color: cyan;
+            color:black;
+            width: 150px;
+            height: 50px;
+            border-radius: 30px;
+        }
+        .p14:hover{
+            background-color: cyan;
+            color: black;
+            width: 150px;
+            height: 50px;
+            border-radius: 30px;
+        }
+        .p15:hover{
+            background-color: cyan;
+            color: black;
+            border-radius: 30px;
+            width: 150px;
+            height: 50px;
         }
         .profilepic{
             border-radius: 50%;
@@ -250,6 +276,11 @@
             background-color: rgb(205, 233, 243);
             color: rgb(5, 5, 212);
             border: none;
+            transition: all 0,4 ease;
+        }
+        .button101:hover{
+            background-color: black;
+            color: white;
         }
         .p811{
             color: grey;
@@ -282,6 +313,11 @@
             color: rgb(5, 5, 212);
             border: none;
             margin-top: 10px;
+            transition: all 0,4 ease;
+        }
+        .buttoninter:hover{
+            background-color: black;
+            color:white;
         }
         .div814{
             display: grid;
@@ -372,64 +408,71 @@
             margin-top: 20px;
 
         }
+        .maindiv{
+            margin: 50px;
+            background-color: white;
+            border-radius: 20px;
+        }
 
     </style>
 </head>
-<body>
-    <div class="navbar">
-        <div class="div11">
-            <img  src="logo.png" class="img1" alt="This is the logo"/>
-            <p class="p1">Kodecolor</p>
-        </div>
-        <div class="searchbar1"><input class="searchbar" type="search" placeholder="Search"/></div>
-        <div class="div13"><button class="p13 pall">Find people</button></div>
-        <div class="div14"><button class="p14 pall">Messages</button><button class="b14">4</button></div>
-        <div class="div15"><button class="p15 pall">My Contacts</button></div>
-        <div class="div16"><img src="profilepic.jpeg" class="profilepic" alt="profile picture"/></div>
-    </div>
-    <div class="div2">
-        <div class="manpicdiv">
-            <img class="manpic" src="manpic.png" alt="man picture"/>
-        </div>
-        <div class="div3">
-            <div class="div31"><h1 class="h31">Jeremy Rose</h1><img class="img31" src="locationlogo.png" alt="location"><p class="p31">New York, NY</p></div>
-            <div class="div4"><p class="p41">Product Designer</p></div>
-            <div class="div5"><p class="p51">Ratings</p><img class="img51" src="stars.jpg" alt="rating"/></div>
-            <div class="div6"><button class="button61 buttons6">🗨️ Send message</button><button class="button62 buttons6">✓ Contacts</button><button class="button63 buttons6">Report user</button></div>
-            <div class="div7"><button class="button71">𓁺 Timeline</button><button class="button72">👤 About</button></div>
-        </div>
-    </div>
-    <div class="div8">
-        <div class="div81">
-            <div class="div811"><p class="p811">Work ___________________________________</p></div>
-            <div class="div10"><h2 class="h101">Spotify New York</h2><button class="button101">Primary</button></div>
-            <div class="div812"><p class="p8121">170 William Street</p><p class="p8122">NewYork, NY 10038-78 21-10-51</p></div>
-            <div class="div813"><div class="interdiv"><h2 class="h212">Metropolitan</h2><h2>Museum</h2></div><button class="buttoninter">Secondary</button></div>
-            <div class="div814"><p class="p33">585 68zh Street</p><p class="p34">NewYork, NY 10651-70-156-187-60</p></div>
-        </div>
-        <div class="div82">
-            <div><p class="p6">Contact Information</p></div>
-            <div class="div90"><p class="p901">Phone:</p><p class="p900">+1 123 456 7890</p></div>
-            <div class="div91"><p>Address:</p><div class="divinter2"><p>525 E 68th Street</p><p>New York, NY 10615-78-165-187-60</p></div></div>
-            <div class="div92"><p>Email:</p><p class="p91">hello.hey@gmail.com</p></div>
-            <div class="div93"><p>Site:</p><p class="p92">www.jeremyrose.com</p></div>
-            <div class="div94"><p class="p93">Basic Information</p></div>
-        </div>
-    </div>
-    <div class="lastdiv">
-        <div>
-            <div class="div1000"><p class="p1000">Skills____________________________</p></div>
-                <div class="div1001">
-                    <h3>Branding</h3>
-                    <h3>UI/UX</h3>
-                    <h3>Web-Design</h3>
-                    <h3>Packaging</h3>
-                    <h3>Print & Editorial</h3>
-                </div>
+<body style="background-color: blue;">
+    <div class="maindiv">
+        <div class="navbar">
+            <div class="div11">
+                <img  src="logo.png" class="img1" alt="This is the logo"/>
+                <p class="p1">Kodecolor</p>
             </div>
-        <div class="div2000">
-            <div class="lastdiv1"><p>Birthday:</p><p>June 5, 1992</p></div>
-            <div class="lastdiv2"><p>Gender:</p><p>Male</p></div>
+            <div class="searchbar1"><input class="searchbar" type="search" placeholder="Search"/></div>
+            <div class="div13"><button class="p13 pall">Find people</button></div>
+            <div class="div14"><button class="p14 pall">Messages</button><button class="b14">4</button></div>
+            <div class="div15"><button class="p15 pall">My Contacts</button></div>
+            <div class="div16"><img src="profilepic.jpeg" class="profilepic" alt="profile picture"/></div>
+        </div>
+        <div class="div2">
+            <div class="manpicdiv">
+                <img class="manpic" src="manpic.png" alt="man picture"/>
+            </div>
+            <div class="div3">
+                <div class="div31"><h1 class="h31">Jeremy Rose</h1><img class="img31" src="locationlogo.png" alt="location"><p class="p31">New York, NY</p></div>
+                <div class="div4"><p class="p41">Product Designer</p></div>
+                <div class="div5"><p class="p51">Ratings</p><img class="img51" src="stars.jpg" alt="rating"/></div>
+                <div class="div6"><button class="button61 buttons6">🗨️ Send message</button><button class="button62 buttons6">✓ Contacts</button><button class="button63 buttons6">Report user</button></div>
+                <div class="div7"><button class="button71">𓁺 Timeline</button><button class="button72">👤 About</button></div>
+            </div>
+        </div>
+        <div class="div8">
+            <div class="div81">
+                <div class="div811"><p class="p811">Work ___________________________________</p></div>
+                <div class="div10"><h2 class="h101">Spotify New York</h2><button class="button101">Primary</button></div>
+                <div class="div812"><p class="p8121">170 William Street</p><p class="p8122">NewYork, NY 10038-78 21-10-51</p></div>
+                <div class="div813"><div class="interdiv"><h2 class="h212">Metropolitan</h2><h2>Museum</h2></div><button class="buttoninter">Secondary</button></div>
+                <div class="div814"><p class="p33">585 68zh Street</p><p class="p34">NewYork, NY 10651-70-156-187-60</p></div>
+            </div>
+            <div class="div82">
+                <div><p class="p6">Contact Information</p></div>
+                <div class="div90"><p class="p901">Phone:</p><p class="p900">+1 123 456 7890</p></div>
+                <div class="div91"><p>Address:</p><div class="divinter2"><p>525 E 68th Street</p><p>New York, NY 10615-78-165-187-60</p></div></div>
+                <div class="div92"><p>Email:</p><p class="p91">hello.hey@gmail.com</p></div>
+                <div class="div93"><p>Site:</p><p class="p92">www.jeremyrose.com</p></div>
+                <div class="div94"><p class="p93">Basic Information</p></div>
+            </div>
+        </div>
+        <div class="lastdiv">
+            <div>
+                <div class="div1000"><p class="p1000">Skills____________________________</p></div>
+                    <div class="div1001">
+                        <h3>Branding</h3>
+                        <h3>UI/UX</h3>
+                        <h3>Web-Design</h3>
+                        <h3>Packaging</h3>
+                        <h3>Print & Editorial</h3>
+                    </div>
+                </div>
+            <div class="div2000">
+                <div class="lastdiv1"><p>Birthday:</p><p>June 5, 1992</p></div>
+                <div class="lastdiv2"><p>Gender:</p><p>Male</p></div>
+            </div>
         </div>
     </div>
 </body>
